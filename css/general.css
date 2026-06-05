@@ -1,6 +1,16 @@
+/* mobile */
 footer {
   background-color: #5f85a7;
   color: white;
   text-align: center;
   padding: 20px;
+}
+
+.logo {
+  width: 30px;
+  height: auto;
+}
+
+/* desktop */
+@media (min-width: 800px) {
 }
