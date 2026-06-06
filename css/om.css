@@ -75,11 +75,6 @@ summary::after {
 }
 /* desktop */
 @media (min-width: 800px) {
-  .om-main {
-    padding: 4rem 2rem;
-    max-width: 1200px;
-  }
-
   .hero {
     display: grid;
     grid-template-columns: 1.5fr 0.8fr;
@@ -96,10 +91,14 @@ summary::after {
     margin: 0 auto 5rem;
   }
 
+  main {
+    margin-top: 80px;
+    margin-bottom: 50px;
+  }
+
   .hero-background {
     background-color: #f6f2eb;
-    width: 100vw;
-    margin-left: calc(50% - 50vw);
+    width: 100%;
   }
 
   .hero h1 {

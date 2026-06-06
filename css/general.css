@@ -7,6 +7,11 @@
   src: url(/fonts/Lemon\ Sugar.otf);
 }
 
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
 /* mobile */
 footer {
   background-color: #5f85a7;
@@ -137,5 +142,10 @@ body {
 
   .menu-icon {
     display: none;
+  }
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
   }
 }
