@@ -1,4 +1,16 @@
 /* mobile first */
+
+h1 {
+  font-size: 5.5em;
+  color: #ff0000;
+  font-family: more-sugar, sans-serif;
+}
+
+h2 {
+  font-size: 3em;
+  color: #ff0000;
+  font-family: more-sugar, sans-serif;
+}
 .portræt {
   width: 300px;
   height: auto;
@@ -46,10 +58,10 @@ main p {
 /* desktop */
 @media (min-width: 800px) {
   h1 {
-    font-size: 8em;
+    font-size: 6.5em;
   }
   h2 {
-    font-size: 4em;
+    font-size: 3.5em;
     margin-top: 70px;
   }
   h3 {

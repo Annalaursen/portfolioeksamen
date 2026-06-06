@@ -3,8 +3,8 @@
   src: url(/fonts/aureliaemiko.ttf);
 }
 @font-face {
-  font-family: lemon-sugar;
-  src: url(/fonts/Lemon\ Sugar.otf);
+  font-family: more-sugar;
+  src: url(/fonts/MoreSugar-Thin.ttf);
 }
 
 main {
@@ -23,13 +23,13 @@ footer {
 h1 {
   font-size: 6em;
   color: #ff0000;
-  font-family: lemon-sugar, sans-serif;
+  font-family: more-sugar, sans-serif;
 }
 
 h2 {
-  font-size: 3em;
+  font-size: 4em;
   color: #ff0000;
-  font-family: aurelia, sans-serif;
+  font-family: more-sugar, sans-serif;
 }
 h3 {
   font-size: 1.5em;

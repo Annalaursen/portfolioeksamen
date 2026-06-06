@@ -106,7 +106,7 @@ summary::after {
     grid-row: 1;
     margin-top: -1rem;
     margin-bottom: 0;
-    font-family: lemon-sugar, sans-serif;
+    font-family: aurelia, sans-serif;
   }
 
   .hero h3 {
