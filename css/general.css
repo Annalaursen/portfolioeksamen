@@ -6,6 +6,20 @@ footer {
   padding: 20px;
 }
 
+h1 {
+  font-size: 4em;
+  color: #ff0000;
+}
+
+h2 {
+  font-size: 3em;
+  color: #ff0000;
+}
+h3 {
+  font-size: 1.5em;
+  color: #5f86ad;
+}
+
 header {
   display: flex;
   justify-content: space-between;

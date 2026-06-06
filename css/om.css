@@ -1,3 +1,8 @@
+.portræt {
+  width: 300px;
+  height: auto;
+}
+
 /* Accordion */
 details {
   outline: 2px solid #ffffff;
@@ -48,4 +53,8 @@ html {
 
 [open]::details-content {
   height: auto;
+}
+
+/* desktop */
+@media (min-width: 800px) {
 }
