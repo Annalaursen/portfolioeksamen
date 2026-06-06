@@ -16,6 +16,11 @@
   padding: 10px 20px;
   text-decoration: none;
   border-radius: 5px;
+  margin: 50px;
+  display: block;
+  width: 150px;
+  margin: 25px auto;
+  text-align: center;
 }
 
 h1 {
@@ -37,48 +42,51 @@ main {
 }
 
 main p {
-  max-width: 900px;
+  max-width: 400px;
   margin: 30px auto;
   padding: 25px;
   background-color: #f4efe7;
   color: #5f86ad;
-  font-size: 1.4rem;
+  font-size: 1.2em;
 }
 
-@media screen and (max-width: 800px) {
+/* desktop */
+@media (min-width: 800px) {
   h1 {
-    font-size: 4rem;
-    margin-bottom: 10px;
+    font-size: 6em;
+  }
+  h2 {
+    font-size: 4em;
+    margin-top: 70px;
+  }
+  h3 {
+    font-size: 2em;
+    margin-top: 5px;
   }
 
   .portræt {
-    width: 210px;
+    width: 300px;
     display: block;
     margin: 0 auto;
   }
 
-  h3 {
-    font-size: 1.3rem;
-    margin-top: 5px;
-  }
-
-  h2 {
-    font-size: 2rem;
-    margin-top: 70px;
-  }
-
   main p {
-    max-width: 320px;
-    background-color: transparent;
+    max-width: 900px;
     padding: 0 20px;
-    font-size: 1.4rem;
-    line-height: 1.5;
+    font-size: 1.25em;
+    line-height: 1.6;
   }
 
   .cta {
-    display: block;
+    background-color: #ff0000;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
     width: 150px;
-    margin: 25px auto;
     text-align: center;
+
+    display: inline-block;
+    margin: 25px 40px;
   }
 }
