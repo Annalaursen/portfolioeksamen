@@ -2,6 +2,10 @@
   font-family: aurelia;
   src: url(/fonts/aureliaemiko.ttf);
 }
+@font-face {
+  font-family: lemon-sugar;
+  src: url(/fonts/Lemon\ Sugar.otf);
+}
 
 /* mobile */
 footer {
@@ -12,14 +16,15 @@ footer {
 }
 
 h1 {
-  font-size: 4em;
+  font-size: 6em;
   color: #ff0000;
-  font-family: aurelia, sans-serif;
+  font-family: lemon-sugar, sans-serif;
 }
 
 h2 {
   font-size: 3em;
   color: #ff0000;
+  font-family: aurelia, sans-serif;
 }
 h3 {
   font-size: 1.5em;

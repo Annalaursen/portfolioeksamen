@@ -3,7 +3,24 @@
   width: 300px;
   height: auto;
 }
+.hero {
+  position: relative;
+  display: inline-block;
+}
 
+.hero h1 {
+  position: absolute;
+  top: -45px;
+  left: -50px;
+  transform: rotate(-14deg);
+
+  z-index: 2;
+  margin-top: 0;
+}
+
+.portræt {
+  display: block;
+}
 .intro {
   background-color: #f4efe7;
   padding: 40px 20px;
@@ -13,6 +30,7 @@
 
 main {
   text-align: center;
+  margin-top: 50px;
 }
 
 main p {
@@ -27,7 +45,7 @@ main p {
 /* desktop */
 @media (min-width: 800px) {
   h1 {
-    font-size: 6em;
+    font-size: 8em;
   }
   h2 {
     font-size: 4em;
@@ -41,9 +59,12 @@ main p {
   .portræt {
     width: 300px;
     display: block;
-    margin: 0 auto;
+    margin: 0;
   }
 
+  main {
+    margin-top: 80px;
+  }
   main p {
     max-width: 900px;
     padding: 0 20px;
@@ -62,5 +83,24 @@ main p {
 
     display: inline-block;
     margin: 25px 40px;
+  }
+
+  .hero {
+    position: relative;
+    display: inline-block;
+  }
+
+  .hero h1 {
+    position: absolute;
+    top: -60px;
+    left: -70px;
+    transform: rotate(-17deg);
+
+    z-index: 2;
+    margin-top: 0;
+  }
+
+  .portræt {
+    display: block;
   }
 }
