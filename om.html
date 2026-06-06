@@ -29,17 +29,22 @@
       </nav>
     </header>
 
-    <main>
-      <h1>Hvem er jeg?</h1>
-      <!-- indsæt svg her -->
-      <img src="img/portraet.webp" alt="portræt af mig" class="portræt" />
-      <h3>
-        Jeg hedder Anna og er 24 år gammel. Jeg er født og opvokset i Danmark i en lille havneby på sydsjælland der hedder Præstø. Jeg blev student i 2021, og har siden da arbejdet i børnehave. Jeg har altid været meget kreativt anlagt, så da jeg
-        stødte på multimediedesigner uddannelsen, valgte jeg at søge ind på EK.
-      </h3>
+    <main class="om-main">
+      <section class="hero">
+        <div class="hero-text">
+          <h1>Hvem er jeg?</h1>
+          <!-- indsæt svg her -->
+
+          <h3>
+            Jeg hedder Anna og er 24 år gammel. Jeg er ødt og opvokset i Danmark i en lille havneby på sydsjælland der hedder Præstø. Jeg blev student i 2021, og har siden da arbejdet i børnehave. Jeg har altid været meget kreativt anlagt, så da jeg
+            stødte på multimediedesigner uddannelsen, valgte jeg at søge ind på EK.
+          </h3>
+        </div>
+        <img src="img/portraet.webp" alt="portræt af mig" class="portræt" />
+      </section>
 
       <section class="om-section">
-        <details open name="accordion">
+        <details name="accordion">
           <summary>Uddannelser og kurser</summary>
           <div class="content">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam nobis recusandae saepe, fugiat officia impedit assumenda ipsa repudiandae odio ducimus laboriosam, laudantium distinctio illo voluptatem tenetur beatae quo!</p>
@@ -67,8 +72,11 @@
           </div>
         </details>
       </section>
-      <h3>Se mine projekter fra 1. Semester her!</h3>
-      <a href="projekter.html" class="cta">Projekter</a>
+
+      <section class="om-link">
+        <h3>Se mine projekter fra 1. Semester her!</h3>
+        <a href="projekter.html" class="cta">Projekter</a>
+      </section>
     </main>
     <footer>copyright &copy; 2026 - Anna Laursen</footer>
   </body>
