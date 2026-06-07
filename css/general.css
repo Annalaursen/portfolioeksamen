@@ -36,6 +36,12 @@ h3 {
   color: #5f86ad;
 }
 
+p {
+  font-size: 1.2em;
+  color: #5f86ad;
+  line-height: 1.6;
+}
+
 .cta {
   background-color: #ff0000;
   color: white;

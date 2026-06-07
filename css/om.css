@@ -35,6 +35,9 @@
   position: relative;
   z-index: 2;
 }
+.blomst {
+  display: none;
+}
 
 .hero-background {
   background: none;
@@ -89,6 +92,7 @@ summary::after {
     padding-bottom: 2.5rem;
     max-width: 1200px;
     margin: 0 auto 5rem;
+    position: relative;
   }
 
   main {
@@ -104,12 +108,20 @@ summary::after {
   .hero h1 {
     grid-column: 1;
     grid-row: 1;
-    margin-top: -1rem;
+    margin-top: 1rem;
+    left: 20px;
     margin-bottom: 0;
     font-size: 5em;
     font-family: more-sugar, sans-serif;
   }
 
+  .blomst {
+    display: block;
+    position: absolute;
+    width: 200px;
+    left: 445px;
+    bottom: 320px;
+  }
   .hero h3 {
     grid-column: 1;
     grid-row: 2;
