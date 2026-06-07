@@ -142,4 +142,56 @@
     grid-column: 4 / 6;
     width: 100%;
   }
+
+  .tema h3 {
+    font-size: 2rem;
+    margin: 5rem auto 4rem;
+  }
+
+  .løsning-box,
+  .proces-box,
+  .refleksion-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 4rem;
+    padding: 4rem 3rem;
+    text-align: left;
+  }
+
+  .løsning-box h2,
+  .proces-box h2,
+  .refleksion-box h2 {
+    text-align: left;
+    margin-bottom: 1rem;
+  }
+
+  .løsning-box p,
+  .proces-box p,
+  .refleksion-box p {
+    text-align: left;
+    margin: 0;
+    max-width: 32rem;
+  }
+
+  .tema-screenshot {
+    width: 100%;
+    max-width: 280px;
+  }
+
+  .løsning-box .tema-screenshot,
+  .refleksion-box .tema-screenshot {
+    justify-self: end;
+  }
+
+  .proces-box .tema-screenshot {
+    grid-column: 1;
+    grid-row: 1 / 3;
+    justify-self: center;
+  }
+
+  .proces-box h2,
+  .proces-box p {
+    grid-column: 2;
+  }
 }
