@@ -7,8 +7,8 @@
     <meta name="robots" content="noindex, nofollow" />
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/projekter.css" />
-    <link rel="stylesheet" href="js/general.js" />
   </head>
+  <script src="js/general.js"></script>
   <body>
     <header>
       <a href="index.html"><img src="img/logo.webp" alt="logo illustrator" class="logo" /></a>
@@ -28,7 +28,127 @@
         </ul>
       </nav>
     </header>
-    <main></main>
+    <main>
+      <section class="hero-projekter">
+        <h1>Mine projekter</h1>
+        <div class="tema-knapper">
+          <button class="tema-btn active" onclick="visTema('tema2', this)">Tema 2</button>
+          <button class="tema-btn" onclick="visTema('tema3', this)">Tema 3</button>
+          <button class="tema-btn" onclick="visTema('tema4', this)">Tema 4</button>
+          <button class="tema-btn" onclick="visTema('tema5', this)">Tema 5</button>
+          <button class="tema-btn" onclick="visTema('tema6', this)">Tema 6</button>
+        </div>
+      </section>
+      <section id="tema2" class="tema active-tema">
+        <h3>Tema 2 - Grundlæggende web</h3>
+        <div class="løsning-box">
+          <h2>Løsning</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate. Doloribus, quisquam. Voluptas, voluptate. Doloribus, quisquam. Voluptas, voluptate. Doloribus, quisquam. Voluptas, voluptate. Doloribus, quisquam.</p>
+          <img src="img/tema2.webp" alt="screenshot af tema 2 løsning" class="tema-screenshot" />
+        </div>
+
+        <div class="proces-box">
+          <h2>Proces</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate. Doloribus, quisquam. Voluptas, voluptate. Doloribus, quisquam. Voluptas, voluptate. Doloribus, quisquam. Voluptas, voluptate. Doloribus, quisquam.</p>
+          <img src="img/tema2-proces.webp" alt="screenshot af tema 2 proces" class="tema-screenshot" />
+        </div>
+
+        <div class="refleksion-box">
+          <h2>Refleksion</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate. Doloribus, quisquam. Voluptas, voluptate. Doloribus, quisquam. Voluptas, voluptate. Doloribus, quisquam. Voluptas, voluptate. Doloribus, quisquam.</p>
+          <img src="img/tema2-refleksion.webp" alt="screenshot af tema 2 refleksion" class="tema-screenshot" />
+        </div>
+        <a href="https://www.eksempel.com" class="cta">Se løsning</a>
+      </section>
+
+      <section id="tema3" class="tema">
+        <h3>Tema 3 - Grundlæggende UX/UI</h3>
+        <div class="løsning-box">
+          <h2>Løsning</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate. Doloribus, quisquam. Voluptas, voluptate. Doloribus, quisquam. Voluptas, voluptate. Doloribus, quisquam. Voluptas, voluptate. Doloribus, quisquam.</p>
+          <img src="img/tema3.webp" alt="screenshot af tema 3 løsning" class="tema-screenshot" />
+        </div>
+
+        <div class="proces-box">
+          <h2>Proces</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate. Doloribus, quisquam. Voluptas, voluptate. Doloribus, quisquam. Voluptas, voluptate. Doloribus, quisquam. Voluptas, voluptate. Doloribus, quisquam.</p>
+          <img src="img/tema3-proces.webp" alt="screenshot af tema 3 proces" class="tema-screenshot" />
+        </div>
+
+        <div class="refleksion-box">
+          <h2>Refleksion</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate. Doloribus, quisquam. Voluptas, voluptate. Doloribus, quisquam. Voluptas, voluptate. Doloribus, quisquam. Voluptas, voluptate. Doloribus, quisquam.</p>
+          <img src="img/tema3-refleksion.webp" alt="screenshot af tema 3 refleksion" class="tema-screenshot" />
+        </div>
+        <a href="https://www.eksempel.com" class="cta">Se løsning</a>
+      </section>
+
+      <section id="tema4" class="tema">
+        <h3>Tema 4 - Grundlæggende brugergrænsefladeudvikling</h3>
+        <div class="løsning-box">
+          <h2>Løsning</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate. Doloribus, quisquam. Voluptas, voluptate. Doloribus, quisquam. Voluptas, voluptate. Doloribus, quisquam. Voluptas, voluptate. Doloribus, quisquam.</p>
+          <img src="img/tema4.webp" alt="screenshot af tema 4 løsning" class="tema-screenshot" />
+        </div>
+
+        <div class="proces-box">
+          <h2>Proces</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate. Doloribus, quisquam. Voluptas, voluptate. Doloribus, quisquam. Voluptas, voluptate. Doloribus, quisquam. Voluptas, voluptate. Doloribus, quisquam.</p>
+          <img src="img/tema4-proces.webp" alt="screenshot af tema 4 proces" class="tema-screenshot" />
+        </div>
+
+        <div class="refleksion-box">
+          <h2>Refleksion</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate. Doloribus, quisquam. Voluptas, voluptate. Doloribus, quisquam. Voluptas, voluptate. Doloribus, quisquam. Voluptas, voluptate. Doloribus, quisquam.</p>
+          <img src="img/tema4-refleksion.webp" alt="screenshot af tema 4 refleksion" class="tema-screenshot" />
+        </div>
+        <a href="https://www.eksempel.com" class="cta">Se løsning</a>
+      </section>
+
+      <section id="tema5" class="tema">
+        <h3>Tema 5 - Grundlæggende indhold</h3>
+        <div class="løsning-box">
+          <h2>Løsning</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate. Doloribus, quisquam. Voluptas, voluptate. Doloribus, quisquam. Voluptas, voluptate. Doloribus, quisquam. Voluptas, voluptate. Doloribus, quisquam.</p>
+          <img src="img/tema5.webp" alt="screenshot af tema 5 løsning" class="tema-screenshot" />
+        </div>
+
+        <div class="proces-box">
+          <h2>Proces</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate. Doloribus, quisquam. Voluptas, voluptate. Doloribus, quisquam. Voluptas, voluptate. Doloribus, quisquam. Voluptas, voluptate. Doloribus, quisquam.</p>
+          <img src="img/tema5-proces.webp" alt="screenshot af tema 5 proces" class="tema-screenshot" />
+        </div>
+
+        <div class="refleksion-box">
+          <h2>Refleksion</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate. Doloribus, quisquam. Voluptas, voluptate. Doloribus, quisquam. Voluptas, voluptate. Doloribus, quisquam. Voluptas, voluptate. Doloribus, quisquam.</p>
+          <img src="img/tema5-refleksion.webp" alt="screenshot af tema 5 refleksion" class="tema-screenshot" />
+        </div>
+        <a href="https://www.eksempel.com" class="cta">Se løsning</a>
+      </section>
+
+      <section id="tema6" class="tema">
+        <h3>Tema 6 - Portfolioeksamen</h3>
+        <div class="løsning-box">
+          <h2>Løsning</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate. Doloribus, quisquam. Voluptas, voluptate. Doloribus, quisquam. Voluptas, voluptate. Doloribus, quisquam. Voluptas, voluptate. Doloribus, quisquam.</p>
+          <img src="img/tema6.webp" alt="screenshot af tema 6 løsning" class="tema-screenshot" />
+        </div>
+
+        <div class="proces-box">
+          <h2>Proces</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate. Doloribus, quisquam. Voluptas, voluptate. Doloribus, quisquam. Voluptas, voluptate. Doloribus, quisquam. Voluptas, voluptate. Doloribus, quisquam.</p>
+          <img src="img/tema6-proces.webp" alt="screenshot af tema 6 proces" class="tema-screenshot" />
+        </div>
+
+        <div class="refleksion-box">
+          <h2>Refleksion</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate. Doloribus, quisquam. Voluptas, voluptate. Doloribus, quisquam. Voluptas, voluptate. Doloribus, quisquam. Voluptas, voluptate. Doloribus, quisquam.</p>
+          <img src="img/tema6-refleksion.webp" alt="screenshot af tema 6 refleksion" class="tema-screenshot" />
+        </div>
+        <a href="https://www.eksempel.com" class="cta">Se løsning</a>
+      </section>
+    </main>
     <footer>copyright &copy; 2026 - Anna Laursen</footer>
   </body>
 </html>

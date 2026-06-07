@@ -1,3 +1,22 @@
 /* mobile first */
+.tema {
+  display: none;
+}
+
+.tema.active-tema {
+  display: block;
+}
+
+.tema-btn {
+  background-color: #6f8fad;
+  color: white;
+  border: none;
+  padding: 12px 45px;
+  cursor: pointer;
+}
+
+.tema-btn.active {
+  background-color: red;
+}
 
 /* desktop */
