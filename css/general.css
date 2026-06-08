@@ -1,10 +1,11 @@
 @font-face {
   font-family: liberation;
-  src: url(/fonts/LiberationSerif-Regular.ttf);
+  src: url("../fonts/LiberationSerif-Regular.ttf");
 }
+
 @font-face {
   font-family: more-sugar;
-  src: url(/fonts/MoreSugar-Thin.ttf);
+  src: url("../fonts/MoreSugar-Thin.ttf");
 }
 
 /* mobile */
