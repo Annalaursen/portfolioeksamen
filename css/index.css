@@ -4,6 +4,8 @@ h1 {
   font-size: 5.5em;
   color: #ff0000;
   font-family: more-sugar, sans-serif;
+
+  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.15);
 }
 
 h2 {
@@ -67,6 +69,10 @@ main p {
 @media (min-width: 800px) {
   h1 {
     font-size: 6.5em;
+    color: #ff0000;
+    font-family: more-sugar, sans-serif;
+
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.15);
   }
   h2 {
     font-size: 3.5em;

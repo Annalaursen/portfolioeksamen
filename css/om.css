@@ -95,6 +95,10 @@ summary::after {
   font-size: 1rem;
   margin-top: 1rem;
 }
+
+.hero h1 {
+  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.15);
+}
 /* desktop */
 @media (min-width: 800px) {
   .hero {
