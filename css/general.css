@@ -1,6 +1,6 @@
 @font-face {
-  font-family: aurelia;
-  src: url(/fonts/aureliaemiko.ttf);
+  font-family: liberation;
+  src: url(/fonts/LiberationSerif-Regular.ttf);
 }
 @font-face {
   font-family: more-sugar;
@@ -37,12 +37,14 @@ h3 {
   color: #5f85a7;
   font-weight: normal;
   margin-top: 0;
+  font-family: liberation;
 }
 
 p {
   font-size: 1.2em;
   color: #5f86ad;
   line-height: 1.6;
+  font-family: liberation, Times, serif;
 }
 
 .cta {

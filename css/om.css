@@ -53,6 +53,7 @@
   /* margin-top: -1rem; */
   padding: 1.5rem;
   margin-bottom: 0;
+  font-family: liberation;
 }
 
 .om-section {
@@ -148,6 +149,7 @@ summary::after {
     font-size: 1rem;
     font-family: sans-serif;
     margin-top: -8rem;
+    font-family: liberation;
   }
 
   .portræt {
