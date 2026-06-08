@@ -10,6 +10,14 @@ h2 {
   font-size: 3em;
   color: #ff0000;
   font-family: more-sugar, sans-serif;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-size: 1.5em;
+  color: #5f85a7;
+  font-weight: normal;
 }
 .portræt {
   width: 300px;
@@ -48,8 +56,8 @@ main {
 
 main p {
   max-width: 400px;
-  margin: 30px auto;
-  padding: 25px;
+  margin: 20px auto;
+  padding: 5px;
   background-color: #f4efe7;
   color: #5f86ad;
   font-size: 1.2em;
@@ -66,7 +74,7 @@ main p {
   }
   h3 {
     font-size: 1.75em;
-    margin-top: 5px;
+    margin-top: 3px;
   }
 
   .portræt {

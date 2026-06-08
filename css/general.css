@@ -33,15 +33,10 @@ h2 {
 }
 
 h3 {
-  font-size: 2em;
+  font-size: 1.5em;
   color: #5f85a7;
   font-weight: normal;
-}
-
-p {
-  font-size: 1.2em;
-  color: #5f86ad;
-  line-height: 1.6;
+  margin-top: 0;
 }
 
 p {
@@ -161,5 +156,11 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 1.5rem;
+  }
+
+  p {
+    font-size: 1.15em;
+    color: #5f86ad;
+    line-height: 1.6;
   }
 }
