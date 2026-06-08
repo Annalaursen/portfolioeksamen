@@ -18,6 +18,29 @@ footer {
   color: white;
   text-align: center;
   padding: 20px;
+  font-family: liberation, serif;
+}
+
+footer {
+  background-color: #5f85a7;
+  padding: 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+footer p {
+  color: white;
+  margin: 0;
+  font-size: 0.8rem;
+}
+
+.footer-left {
+  text-align: left;
+}
+
+.footer-right {
+  text-align: right;
 }
 
 h1 {
@@ -179,5 +202,11 @@ body {
     font-size: 1.15em;
     color: #5f86ad;
     line-height: 1.6;
+  }
+
+  footer p {
+    color: white;
+    margin: 0;
+    font-size: 1rem;
   }
 }
