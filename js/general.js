@@ -15,3 +15,11 @@ function visTema(temaId, knap) {
   document.getElementById(temaId).classList.add("active-tema");
   knap.classList.add("active");
 }
+
+// headder sticky scrolled
+
+const header = document.querySelector("header");
+
+window.addEventListener("scroll", () => {
+  header.classList.toggle("scrolled", window.scrollY > 0);
+});
