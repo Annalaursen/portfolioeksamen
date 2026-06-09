@@ -66,18 +66,13 @@ footer {
 
 footer {
   background-color: #5f85a7;
-  text-decoration: none;
-  color: white;
+
   padding: 20px 30px;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
 }
 
-.footer-left a {
-  text-decoration: none;
-  color: white;
-}
 footer p {
   color: white;
   margin: 0;
