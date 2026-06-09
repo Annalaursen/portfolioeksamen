@@ -72,6 +72,10 @@ footer {
   align-items: flex-end;
 }
 
+.footer-left a {
+  text-decoration: none;
+  color: white;
+}
 footer p {
   color: white;
   margin: 0;
